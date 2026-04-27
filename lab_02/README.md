@@ -26,8 +26,9 @@
 # 1. Створити віртуальне середовище
 python -m venv venv
 
-# 2. Активувати (Windows)
-venv\Scripts\activate
+# 2. Активувати
+source venv/bin/activate   # Linux/Mac
+# venv\Scripts\activate    # Windows
 
 # 3. Встановити залежності
 pip install -r requirements.txt
